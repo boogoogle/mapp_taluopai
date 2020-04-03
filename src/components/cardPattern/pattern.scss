@@ -1,0 +1,25 @@
+.com-pt-container{
+    height: 400px; // 暂时写这个值,以后调整
+    border: 1px solid red;
+
+    .img-card-back {
+        width: 133px;
+        height: 193px;
+
+        &.cur{
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px 1px rgba(255,255,255,0.5), 0px 0px 20px 19px rgba(255,255,255,0.1);
+        }
+    }
+    &.p1 {
+        // 圣三角占卜法
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &.p2 {
+        // 钻石展开法
+        
+    }
+
+}
